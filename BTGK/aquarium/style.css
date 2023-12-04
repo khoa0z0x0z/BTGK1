@@ -1,0 +1,176 @@
+body{
+    background-image: url(https://cdn.pixabay.com/animation/2023/01/24/22/38/22-38-59-658_512.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+#shark{
+
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+@keyframes shark{
+    0% {left: 100px; top: 400px;}
+    20% {left: 500px; top: 400px;}
+    40% {left: 800px; top: 300px;}
+    50% {left: 1100px; top: 100px;}
+    60% {left: 800px; top: 200px;}
+    80% {left: 500px; top: 300px;}
+    100% {left: 100px; top: 400px;transform: scaleX(-1);}
+}
+/*-------------------------------------------------------------*/
+#turtle {
+    top: 600px; left: 300px;
+    position: absolute;
+    animation-name: turtle;
+    animation-duration: 15s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite ;
+    animation-play-state: running;
+}
+
+@keyframes turtle{
+    0% {left: 300px; top: 600px;}
+    20% {left: 600px; top: 600px;}
+    40% {left: 800px; top: 550px;}
+    50% {left: 1100px; top: 600px;}
+    60% {left: 800px; top: 600px;}
+    80% {left: 600px; top: 600px;}
+    100% {left: 300px; top: 600px;transform: scaleX(-1);}
+}
+/*-------------------------------------------------------------*/
+
+#diver1 {
+    left: 10px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+}
+@keyframes diver1{
+    0% {left: 10px; top: 10px}
+    20% {left: 10px; top: 70px;}
+    40% {left: 10px; top: 150px;}
+    50% {left: 10px; top: 300px;}
+    60% {left: 10px; top: 150px;}
+    80% {left: 10px; top: 70px;}
+    100% {left: 10px; top: 10px;transform: scaleX(-1);}
+}
+
+/* ---------------------------------------------------------------------- */
+#diver2 {
+    left: 1200px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+}
+@keyframes diver2{
+    0% {left: 1200px; top: 550px}
+    20% {left: 1200px; top: 400px;}
+    40% {left: 1200px; top: 300px;}
+    50% {left: 1200px; top: 100px;}
+    60% {left: 1200px; top: 300px;}
+    80% {left: 1200px; top: 400px;}
+    100% {left: 1200px; top: 550px;transform: scaleX(-1);}
+}
+
+/* ---------------------------------------------- */
+#diver3 {
+    left: 100px; bottom: 10px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+}
+@keyframes diver3{
+    0%  {left: 10px; bottom: 10px;}
+    20% {left: 10px; bottom: 70px;}
+    40% {left: 10px; bottom: 150px;}
+    50% {left: 10px; bottom: 300px;}
+    60% {left: 10px; bottom: 150px;}
+    80% {left: 10px; bottom: 70px;}
+    100% {left: 10px; bottom: 10px;transform: scaleX(-1);}
+}
+/* ---------------------------------------------- */
+#fish1 {
+    left: 100px;
+    position: absolute;
+    animation-name: fish1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+}
+@keyframes fish1{
+    0% {left: 600px; top: 20px}
+    20% {left: 800px; top: 30px;}
+    40% {left: 950px; top: 40px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 950px; top: 40px;}
+    80% {left: 800px; top: 30px;}
+    100% {left: 600px; top: 20px;transform: scaleX(-1);}
+}
+
+/* ---------------------------------------------- */
+#fish2 {
+    left: 100px;
+    position: absolute;
+    animation-name: fish2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+}
+@keyframes fish2{
+    0% {left: 700px; top: 10px}
+    20% {left: 500px; top: 70px;}
+    40% {left: 300px; top: 150px;}
+    50% {left: 100px; top: 100px;}
+    60% {left: 300px; top: 150px;}
+    80% {left: 500px; top: 70px;}
+    100% {left: 700px; top: 10px;transform: scaleX(-1);}
+}
+
+.controls{
+    display: flex;
+    top: 600px;
+    left: 100px;
+    font-size: 25px;
+    position: absolute;
+    gap: 0 20px;
+}
+
+.play{
+    display: flex;
+    border-radius: 100rem;
+    background-color: white;
+    cursor: pointer;
+}
+.play-back, .play-forward{
+    cursor: pointer;
+}

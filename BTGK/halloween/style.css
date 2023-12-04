@@ -1,0 +1,98 @@
+
+body{
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2023/10/hinh-nen-halloween-34.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+#ma1{
+    left: 50px; top: 100px;
+    position: absolute;
+    animation-name: ma1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    z-index: -1;
+}
+
+@keyframes ma1{
+    0% {left: 50px; top: 100px;}
+    20% {left: 100px; top: 125px;}
+    40% {left: 200px; top: 150px;}
+    50% {left: 300px; top: 200px;}
+    60% {left: 400px; top: 150px;}
+    80% {left: 500px; top: 125px;}
+    100% {left: 600px; top: 100px;}
+}
+
+#ma2{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: ma2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+@keyframes ma2{
+    0% {left: 100px; top: 400px;}
+    20% {left: 150px; top: 450px;}
+    40% {left: 200px; top: 500px;}
+    50% {left: 150px; top: 550px;}
+    60% {left: 250px; top: 550px;}
+    80% {left: 300px; top: 450px;}
+    100% {left: 350px; top: 550px;}
+}
+
+#ma3{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: ma3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes ma3{
+    0% {right: 100px; top: 400px;}
+    20% {right: 500px; top: 500px;}
+    40% {right: 600px; top: 550px;}
+    50% {right: 700px; top: 600px;}
+    60% {right: 600px; top: 500px;}
+    80% {right: 500px; top: 500px;}
+    100% {right: 100px; top: 600px;transform: scaleX(-1);}
+}
+#ma4{
+    right: 50px; top: 100px;
+    position: absolute;
+    animation-name: ma4;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    z-index: -1;
+}
+
+@keyframes ma4{
+    0% {right: 100px; top: 100px;}
+    20% {right: 50px; top: 200px;}
+    40% {right: 150px; top: 300px;}
+    50% {right: 200px; top: 250px;}
+    60% {right: 300px; top: 100px;}
+    80% {right: 500px; top: 50px;}
+    100% {right: 600px; top: 100px;}
+}
+
+#title {
+    font-size: 100px;
+    color: rgba(28, 173, 20, 0.856);
+    text-align: center;
+    font-weight: 600;
+    font-family:'Brush Script MT';
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
